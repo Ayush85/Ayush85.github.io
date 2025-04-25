@@ -23,13 +23,13 @@ const ContactSection = () => {
       icon: <Linkedin size={24} />,
       title: "LinkedIn",
       value: "Connect on LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/ayushshrestha85/",
     },
     {
       icon: <Github size={24} />,
       title: "GitHub",
       value: "Check my repositories",
-      href: "https://github.com",
+      href: "https://github.com/Ayush85",
     },
   ];
 

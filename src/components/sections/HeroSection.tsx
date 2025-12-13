@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
+import profileImage from "@/assets/profile.png";
 
 const HeroSection = () => {
   return (
@@ -32,8 +33,7 @@ const HeroSection = () => {
           
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl animate-fade-in" style={{ animationDelay: "0.4s" }}>
-              <div className="absolute inset-0 bg-gradient-to-br from-portfolio-primary to-portfolio-secondary opacity-90"></div>
-              <div className="absolute inset-0 flex items-center justify-center text-white text-6xl font-bold">AS</div>
+              <img src={profileImage} alt="Ayush Shrestha" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

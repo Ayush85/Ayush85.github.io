@@ -1,14 +1,11 @@
-
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-portfolio-dark text-white py-12">
+  return <footer className="bg-portfolio-dark text-white py-12">
       <div className="container">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h2 className="text-2xl font-bold">
-              Ayush<span className="text-portfolio-primary">.dev</span>
+              Ayush
             </h2>
             <p className="mt-2 text-gray-400">Full Stack Developer based in Kathmandu, Nepal</p>
           </div>
@@ -33,8 +30,6 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} Ayush Shrestha. All rights reserved.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;

@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Download } from "lucide-react";
 import profileImage from "@/assets/profile.png";
 
 const HeroSection = () => {
@@ -27,6 +27,12 @@ const HeroSection = () => {
               </Button>
               <Button asChild variant="outline">
                 <a href="#experience">View Experience</a>
+              </Button>
+              <Button asChild variant="outline" className="gap-2">
+                <a href="/cv.pdf" download="Ayush_Shrestha_CV.pdf">
+                  <Download size={18} />
+                  Download CV
+                </a>
               </Button>
             </div>
           </div>

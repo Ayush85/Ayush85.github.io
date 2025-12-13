@@ -4,9 +4,9 @@ const Footer = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold">
-              Ayush
-            </h2>
+            <h2 className="text-2xl font-bold">Ayush Shrestha
+
+          </h2>
             <p className="mt-2 text-gray-400">Full Stack Developer based in Kathmandu, Nepal</p>
           </div>
           

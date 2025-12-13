@@ -32,9 +32,7 @@ const Navbar = () => {
   }];
   return <nav className={cn("fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4", isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-transparent")}>
       <div className="container flex justify-between items-center">
-        <a href="#home" className="text-xl font-bold text-portfolio-dark">
-          Ayush
-        </a>
+        <a href="#home" className="text-xl font-bold text-portfolio-dark">Ayush Shrestha</a>
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-8">
